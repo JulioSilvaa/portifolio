@@ -1,8 +1,17 @@
-const theme = {
+export const lightTheme = {
   colors: {
-    body: '#e4e4e4',
+    principal: '#e4e4e4',
+    primary: '#e4e',
+    secondary: '#d34587',
+    iconDark: '#000',
   },
-  mobile: '768px',
 };
 
-export default theme;
+export const darkTheme = {
+  colors: {
+    principal: '#202020',
+    primary: '#f78201',
+    secondary: '#f78289',
+    iconDark: '#f6b200',
+  },
+};

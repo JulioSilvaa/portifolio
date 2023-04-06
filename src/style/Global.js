@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   }
  body  {
-    background: ${({ theme }) => theme.colors.body};
+    background: ${({ theme }) => theme.colors.principal};
 
     font-size: 1.15em;
     margin: 0;
