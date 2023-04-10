@@ -8,7 +8,7 @@ export const Aside = styled.aside`
   background-color: ${({ theme }) => theme.colors.principal};
   text-align: center;
   position: relative;
-  padding: 5rem 0;
+  padding: 3rem 0;
   border-radius: 10px;
 `;
 
