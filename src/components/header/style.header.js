@@ -6,13 +6,13 @@ export const Header = styled.header`
   padding: 8px 16px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   text-align: center;
 `;
 
 export const Title = styled.h1`
   margin: 0 auto;
-  font-size: 5rem;
+  font-size: 4rem;
   background: ${({ theme }) => theme.colors.gradienteH1};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
