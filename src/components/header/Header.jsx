@@ -15,19 +15,15 @@ function Header({ toggleTheme, isDarkTheme }) {
 
   return (
     <S.Header>
-      <div>
-        <S.Title>Julio Cesar da Silva</S.Title>
-      </div>
-      <div>
-        <S.ButtonDarkMode
-          onClick={() => {
-            audio.play();
-            onToggle();
-          }}
-        >
-          {isToggle ? <BsSun size={40} /> : <BsMoonStarsFill size={40} />}
-        </S.ButtonDarkMode>
-      </div>
+      <S.Title>Julio Cesar da Silva</S.Title>
+      <S.ButtonDarkMode
+        onClick={() => {
+          audio.play();
+          onToggle();
+        }}
+      >
+        {isToggle ? <BsSun size={40} /> : <BsMoonStarsFill size={40} />}
+      </S.ButtonDarkMode>
     </S.Header>
   );
 }
