@@ -4,7 +4,7 @@ import * as S from './style.header';
 
 function Header({ toggleTheme, isDarkTheme }) {
   const audio = new Audio();
-  audio.src = '../../../public/assets/salamisound-5290169-switch-turn-one-time-toggle.mp3';
+  audio.src = '/assets/salamisound-5290169-switch-turn-one-time-toggle.mp3';
 
   const [isToggle, setIsToggle] = useState(isDarkTheme);
 
