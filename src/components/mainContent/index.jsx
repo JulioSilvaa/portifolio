@@ -3,7 +3,7 @@ import Button from './../button/Button';
 import * as S from './style.main';
 
 import { useNavigate } from 'react-router-dom';
-import Technologies from './../technologies/Technologies';
+import Technologies from '../technologies/Technologies';
 
 export default function MainContent() {
   const navigate = useNavigate();
