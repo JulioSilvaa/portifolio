@@ -1,7 +1,7 @@
 export const lightTheme = {
   colors: {
     backgroundBody: '#f8f8ff',
-    principal: '#A9B4dd',
+    principal: '#A9a',
     iconDark: '#000',
     textColor: '#333',
     gradienteH1: 'linear-gradient(90deg, rgba(185,189,247,1) 0%, rgba(221,154,255,1) 100%);',
