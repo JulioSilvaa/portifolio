@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ButtonDownload = styled.button`
   font-size: 1.2rem;
+  font-weight: bold;
   background: ${({ theme }) => theme.colors.gradienteH1};
   border-radius: 8px;
   margin-top: 3rem;

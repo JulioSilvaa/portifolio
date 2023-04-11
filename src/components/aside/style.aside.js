@@ -33,7 +33,7 @@ export const Avatar = styled.img`
 
 export const Title = styled.h1`
   color: #fff;
-  background-color: lightblue;
+  background-color: #885ea8;
   border-radius: 8px;
   margin-top: 8rem;
   padding: 0.8rem 1.2rem;
@@ -41,6 +41,7 @@ export const Title = styled.h1`
 
 export const LinkDownload = styled.a`
   font-size: 1.2rem;
+  font-weight: bold;
   background: ${({ theme }) => theme.colors.gradienteH1};
   border-radius: 8px;
   margin-top: 3rem;

@@ -10,7 +10,7 @@ function Contact() {
       <S.Card>
         <AiFillPhone />
         <S.ContentCard>
-          <h3>Telefone</h3>
+          <h3>WhattsApp</h3>
           <p>(16) 991063282</p>
         </S.ContentCard>
       </S.Card>

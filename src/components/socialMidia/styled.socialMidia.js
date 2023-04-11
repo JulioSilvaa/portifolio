@@ -14,7 +14,7 @@ export const MidiasContainer = styled.section`
     color: #111;
   }
   > :nth-child(3) {
-    color: #bc2a8d;
+    color: #bc2a8f;
   }
 `;
 export const Link = styled.div`

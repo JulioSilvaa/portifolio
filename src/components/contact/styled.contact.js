@@ -15,22 +15,23 @@ export const Contact = styled.section`
 export const Card = styled.div`
   display: flex;
   font-size: 2rem;
-  color: #333;
+  color: ${({ theme }) => theme.colors.textColor};
   gap: 1rem;
   align-items: center;
   text-align: left;
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid;
+  border-color: ${({ theme }) => theme.colors.textColor};
 
   :nth-child(1) {
     color: #e93b81;
   }
   :nth-child(2) {
-    color: #6ab5b9;
+    color: #ff8c42;
   }
   :nth-child(3) {
-    color: #c17ceb;
+    color: #f0db4f;
   }
 `;
 
@@ -38,7 +39,7 @@ export const ContentCard = styled.div`
   font-size: 1.2rem;
 
   h3 {
-    color: #333;
+    color: ${({ theme }) => theme.colors.textColor};
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -46,6 +47,6 @@ export const ContentCard = styled.div`
 
   p {
     font-weight: bold;
-    color: #333;
+    color: ${({ theme }) => theme.colors.textColor};
   }
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Projects from '../pages/projects/Projects';
+import ProjectsDetails from '../pages/projectsDetails/ProjectsDetail';
 import Home from './../pages/home/Home';
 
 //Pages
@@ -10,7 +10,7 @@ function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projetos" element={<Projects />} />
+        <Route path="/projetos" element={<ProjectsDetails />} />
       </Routes>
     </BrowserRouter>
   );

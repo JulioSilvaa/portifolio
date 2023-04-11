@@ -17,7 +17,7 @@ export const MainContent = styled.main`
 `;
 
 export const Title = styled.h2`
-  color: #555;
+  color: ${({ theme }) => theme.colors.textColor};
   font-size: 2.2rem;
   margin-bottom: 1.3rem;
   display: flex;
