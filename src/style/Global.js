@@ -10,6 +10,8 @@ const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.colors.backgroundprimary};
     margin: 0;
   }
+
+
 `;
 
 export default GlobalStyles;

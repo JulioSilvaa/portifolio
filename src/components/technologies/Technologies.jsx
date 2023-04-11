@@ -26,16 +26,14 @@ const Technologies = () => {
   ];
   return (
     <S.ContainerTechnologies>
-      <div style={{ display: 'flex' }}>
-        {technologies.map((tech) => (
-          <S.IconTechnologies id={tech.id} key={tech.id}>
-            {tech.icon}
-            <div>
-              <h3>{tech.name}</h3>
-            </div>
-          </S.IconTechnologies>
-        ))}
-      </div>
+      {technologies.map((tech) => (
+        <S.IconTechnologies id={tech.id} key={tech.id}>
+          {tech.icon}
+          <div>
+            <h3>{tech.name}</h3>
+          </div>
+        </S.IconTechnologies>
+      ))}
     </S.ContainerTechnologies>
   );
 };

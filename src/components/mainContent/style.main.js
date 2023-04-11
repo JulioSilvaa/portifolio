@@ -3,12 +3,17 @@ import styled from 'styled-components';
 export const MainContent = styled.main`
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   flex: 2 1 0;
   align-items: center;
   text-align: center;
   position: relative;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -25,14 +30,14 @@ export const Title = styled.h2`
     content: '';
     background: ${({ theme }) => theme.colors.gradienteH1};
     height: 5px;
-    width: 30%;
+    width: 20%;
   }
 
   &::before {
     content: '';
     background: ${({ theme }) => theme.colors.gradienteH1};
     height: 5px;
-    width: 30%;
+    width: 20%;
   }
 `;
 

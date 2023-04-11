@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styled.button';
 
-const Button = ({ text }) => {
-  return <S.ButtonDownload>{text}</S.ButtonDownload>;
+const Button = ({ text, handleClick }) => {
+  return <S.ButtonDownload onClick={handleClick}>{text}</S.ButtonDownload>;
 };
 export default Button;

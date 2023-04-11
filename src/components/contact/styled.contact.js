@@ -4,6 +4,12 @@ export const Contact = styled.section`
   display: flex;
   gap: 0.5rem;
   flex-direction: column;
+
+  @media (max-width: 320px) {
+    svg {
+      display: none;
+    }
+  }
 `;
 
 export const Card = styled.div`

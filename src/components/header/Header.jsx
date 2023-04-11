@@ -22,7 +22,7 @@ function Header({ toggleTheme, isDarkTheme }) {
           onToggle();
         }}
       >
-        {isToggle ? <BsSun size={40} /> : <BsMoonStarsFill size={40} />}
+        {isToggle ? <BsSun /> : <BsMoonStarsFill />}
       </S.ButtonDarkMode>
     </S.Header>
   );

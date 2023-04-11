@@ -4,7 +4,14 @@ import AboutMe from './../about/AboutMe';
 import Button from './../button/Button';
 import * as S from './style.main';
 
+import { useNavigate } from 'react-router-dom';
+
 export default function MainContent() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/projetos');
+  };
   return (
     <S.MainContent>
       <S.About>
@@ -12,8 +19,7 @@ export default function MainContent() {
         <AboutMe />
         <S.Title>Tecnologias</S.Title>
         <Technologies />
-        <S.Title>Projetos</S.Title>
-        <Button text={'VER PROJETOS'} />
+        <Button handleClick={handleClick} text={'VER PROJETOS'} />
       </S.About>
     </S.MainContent>
   );

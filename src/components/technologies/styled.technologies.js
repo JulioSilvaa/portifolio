@@ -2,13 +2,24 @@ import styled from 'styled-components';
 
 export const ContainerTechnologies = styled.section`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
   gap: 8px;
   margin: 10px 0;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+  }
+  @media (max-width: 320px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const IconTechnologies = styled.div`
+  flex-wrap: wrap;
   padding: 5px;
   margin: 0 auto;
 
@@ -41,6 +52,6 @@ export const IconTechnologies = styled.div`
   }
 
   svg {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 `;
