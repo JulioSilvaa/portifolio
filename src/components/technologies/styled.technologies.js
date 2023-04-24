@@ -35,20 +35,15 @@ export const IconTechnologies = styled.div`
   :nth-child(4) {
     color: #61dafb;
   }
+
   :nth-child(5) {
-    color: #9feaf7;
-  }
-  :nth-child(6) {
     color: #83cd29;
   }
-  :nth-child(7) {
+  :nth-child(6) {
     color: #ffcb2d;
   }
-  :nth-child(8) {
+  :nth-child(7) {
     color: #118d4d;
-  }
-  :nth-child(9) {
-    color: #00618a;
   }
 
   svg {

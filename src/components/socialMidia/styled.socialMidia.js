@@ -6,6 +6,7 @@ export const MidiasContainer = styled.section`
   justify-content: center;
   gap: 1.2rem;
   margin: 2rem 0;
+  padding: 0 1rem;
 
   > :nth-child(1) {
     color: #0072b0;
@@ -14,7 +15,7 @@ export const MidiasContainer = styled.section`
     color: #111;
   }
   > :nth-child(3) {
-    color: #bc2a8f;
+    color: #5cb866;
   }
 `;
 export const Link = styled.div`

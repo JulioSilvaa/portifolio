@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { BsWhatsapp } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import * as S from './styled.socialMidia';
 
 import { Link } from 'react-router-dom';
@@ -18,9 +19,9 @@ function SocialMidia() {
       url: 'https://github.com/JulioSilvaa',
     },
     {
-      name: 'Instagram',
-      icon: <FaInstagram />,
-      url: 'https://www.instagram.com/julioxsilva/',
+      name: 'WhatsApp',
+      icon: <BsWhatsapp />,
+      url: 'https://contate.me/juliodev',
     },
   ];
 
