@@ -23,7 +23,7 @@ export const Title = styled.h1`
   @media (max-width: 768px) {
     margin-bottom: 20px;
   }
-  @media (max-width: 390px) {
+  @media (max-width: 500px) {
     font-size: 2rem;
   }
 
@@ -41,16 +41,16 @@ export const ButtonDarkMode = styled.button`
   background-color: transparent !important;
 
   svg {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   @media (max-width: 1185px) {
     svg {
-      font-size: 20px;
+      font-size: 24px;
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 500px) {
     svg {
       font-size: 20px;
     }

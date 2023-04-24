@@ -11,6 +11,9 @@ export const Aside = styled.aside`
   padding: 3rem 0;
   border-radius: 10px;
 
+  @media (max-width: 1000px) {
+    padding: 0.5rem 0;
+  }
   @media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
@@ -29,6 +32,13 @@ export const Avatar = styled.img`
   border-radius: 50%;
   position: absolute;
   top: -4rem;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 200px;
+    padding: 0.8rem 10px;
+  }
 `;
 
 export const Title = styled.h1`
