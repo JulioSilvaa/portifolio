@@ -6,20 +6,22 @@ function AboutMe() {
     <>
       <S.ContainerAboutme>
         <S.ContainerAboutMessage>
-          Meu nome é Júlio da Silva, moro em São Carlos - SP, tenho 35 anos. Sou Casado mas ainda
-          náo tenho filhos, venho atuando como Técnico em Eletrônica desde 2010. Durante a pandemia
-          em 2020, comecei a praticar desenvolvimento WEB através de cursos no online. Me
-          identifiquei. Hoje me considero um Desenvolvedor Frontend, formado em 2021 pelo Bootcamp
-          da Labenu. Possuo conhecimento em ReactJS, Javascript, HTML, CSS e também possuo alguns
-          projetos inspirados em aplicativos como: Tinder, Spotify e ifood que foram desenvolvidos
-          para aprimorar minhas habilidades. Sempre que posso participo de Bootcamps buscando sempre
-          melhorar e aprender algo. Durante meus estudos de frontend nos projetos, utilizávamos o
-          kanban para dividir as tarefas, e fazíamos reuniões (Scrum) para melhorias e/ou troca de
-          ideias. enho como Hobby o Paintball , games e séries
+          Olá me chamo Julio Cesar da Silva, tenho 35 anos e moro em São Carlos - SP. Estudante de
+          Análise e Desenvolvimento de Sistemas, atualmente cursando o segundo semestre e
+          estudando/praticando desenvolvimento Frontend desde 2020. Neste mesmo ano após ser
+          desligado do trabalho por conta da pandemia, dei início aos estudos sobre programação,
+          algo que tenho contato desde 2010, devido a minha profissão de Técnico em Eletrônica. Após
+          acompanhar algumas aulas e videos na internet, eu conheci a Labenu, uma instituição de São
+          Paulo - SP que promove uma formação para desenvolvimento Frontend com React, após um
+          processo seletivo eu consegui a oportunidade de participar do Bootcamp que possui a
+          duração de 6 meses. Após a conclusão do Bootcamp sigo estudando através de cursos na Udemy
+          ou de outras instituições, procurando sempre aprimorar o que aprendi até o momento. Hoje
+          em dia venho estudando mais sobre padrões de códigos e testes.
         </S.ContainerAboutMessage>
+
         <S.ContainerAboutMessage>
-          Hoje em dia além das aulas da Faculdade eu sempre tento estar praticando e me
-          desenvolvendo, aprendendo um pouco de Backend, testes.
+          Quando me perguntam do porque escolhi essa area, gosto de dizer que é porque ela nos
+          possibilita criar 'coisas' para ajudar as pessoas !!
         </S.ContainerAboutMessage>
       </S.ContainerAboutme>
     </>
