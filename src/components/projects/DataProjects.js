@@ -9,15 +9,6 @@ export const products = [
       'O projeto consiste em uma página simples onde o usuário pode adicionar na galeria todos os seus produtos, com um breve descrição e a precificação dos mesmos, e ainda possui uma lista rotativa onde poderá ser adicionado os produtos em lançamento e ou em destaques Nesse projeto também foi adicionado uma página do adminnistrador onde o próprio usuário pode adicionar ou remover os produtos na melhor forma.',
   },
   {
-    id: 2,
-    name: 'Cadastro de Funcionários',
-    url: 'https://controlefuncjulio.surge.sh/login',
-    gitHub: 'https://github.com/JulioSilvaa/cadastroDeFuncionarios',
-    image: '/assets/Captura de tela 2023-04-11 131333.png',
-    description:
-      'O desafio Proposto era ter uma aplicação onde fosse possível ter as informações dos funcionários em uma lista, e essa lista pudesse ser atualizada e até mesmo excluída conforme a necessidade do usuário. Através da tabela pode-se ter acesso a todas as informações atualizadas do funcionário como por exemplo: setor, função, salário e até mesmo verificar se o contrado está ativo, no final pode-se gerar um PDF com todas essas informações.',
-  },
-  {
     id: 3,
     name: 'Lista de Países',
     url: 'https://tablelistforexcel.surge.sh/',
